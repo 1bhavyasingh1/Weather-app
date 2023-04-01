@@ -10,9 +10,6 @@ function App() {
   const [Location, setLocation] = useState('')
 
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${Location}&units=metric&appid=6f6c8bfe79d656a435999c8d4b7a50aa`
-  //https: //www.youtube.com/watch?v=UjeXpct3p7M
-  //https://www.youtube.com/watch?v=cE21YjuaB6o
-  //https://www.youtube.com/watch?v=KBXTnrD_Zs4
 
 
   const searchLocation = (event) => {
